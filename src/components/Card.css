@@ -1,0 +1,106 @@
+.card{
+    width: 200px;
+    height: 250px;
+    border-radius: 16px;
+    background-color: white;
+    box-shadow: 3px 3px 10px;
+    padding: 48px 12px 12px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: 500ms;
+}
+
+.card:hover{
+    margin-top: -10px;
+}
+.card__name{
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    width: 120px;
+    font-weight: bold;
+}
+.card__circle{
+    background-color: yellow;
+            width: 150px;
+            height:150px;
+            border-radius: 50%;
+            position: absolute;
+            top: 56px;
+            left: 24px;
+}
+
+.card__img{
+    position: absolute;
+    z-index: 1;
+    width: 125px;
+    left: 50px;
+    top: 100px;
+}
+
+.card__img:hover{
+    position: absolute;
+    z-index: 1;
+    width: 125px;
+    left: 50px;
+    top: 100px;
+    transition: 500ms;
+    transform:rotate(5deg) translateY(-20px)
+}
+
+/* estilos para un pokemon especifico */
+
+.card1{
+    width: 400px;
+    height: 550px;
+    border-radius: 16px;
+    background-color: rgb(163, 163, 163);
+    box-shadow: 3px 3px 10px;
+    padding: 48px 12px 12px;
+    cursor: pointer;
+    position: relative;
+    top: -20px;
+    left: 220px;
+    overflow: hidden;
+}
+
+.card__name1{
+    background-color: rgb(13, 209, 23);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    width: 240px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.card__circle1{
+    background-color: rgb(255, 255, 255);
+            width: 250px;
+            height:250px;
+            border-radius: 50%;
+            position: absolute;
+            top: 170px;
+            left: 70px;
+            
+}
+
+.card__img1{
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    left: 80px;
+    top: 210px;
+}
+
+/* para por tipo */
+.parrafo{
+    
+    position: absolute;
+    bottom: 5px;
+    right: 40px;
+    font-weight: bold;
+}

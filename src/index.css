@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(40, 37, 70);
+   
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
